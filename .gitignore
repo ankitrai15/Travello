@@ -1,11 +1,4 @@
 *.pyc
 *~
 _pycache_
-/about_us
-/contacts
-/dest
-/home
-/media
-/static
-/templates
-/travello
+
