@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div id="carouselExampleSlidesOnly" class="container carousel slide d-flex flex-row justify-content-center my-5 w-50" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        {% for hm in hmd %}
+        <div class="carousel-item {% cycle 'active' '' '' %}">
+            <img src="/media/images/{{hm.home_img}}" class="d-block w-100" alt="home-image">
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}

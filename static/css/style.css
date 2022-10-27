@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.head-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 10rem;
+}
+
+.travello-header {
+    background-image: radial-gradient( circle farthest-corner at 14.2% 24%,  rgba(239,61,78,1) 0%, rgba(239,61,78,0.81) 51.8%, rgba(239,61,78,0.63) 84.6% );
+}
+
+.travello-footer {
+    background-image: radial-gradient( circle farthest-corner at 14.2% 24%,  rgba(239,61,78,1) 0%, rgba(239,61,78,0.81) 51.8%, rgba(239,61,78,0.63) 84.6% );
+}
+
+.page-head h3 {
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.page-head h1 {
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+
+.dest-places {
+    background: url('/media/images/why.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.badge-contact-size {
+    width: 12rem;
+    padding: 1.5rem 1rem;
+}
+
+.contact-head {
+    font-size: 3.5rem;
+}
+
+.contact-mail, .contact-subject {
+    width: 48%;
+}
+
+.contact-field-bg {
+    background: #D3D3D3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-message {
+    height: 15rem;
+}
+
+.contact-data {
+    width: 100%;
+    height: 50rem;
+}

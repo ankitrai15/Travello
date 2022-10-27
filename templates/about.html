@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% for n in titleData %}
+
+<div class="container-fluid page-head text-center py-5 my-5">
+    <h3 class="mb-5 fs-4 fst-italic">SIMPLY AMAZING PLACES</h3>
+    <h1 class="mb-4">{{n.title}}</h1>
+</div>
+<div class="container py-5 my-5 ">
+    <div class="row">
+        <div class="col-lg-6">
+            <h2 class="fw-bold">
+                {{n.title_head}}
+            </h2>
+            <p class="fs-3 my-5">
+                {{n.title_desc}}
+            </p>
+            <span class="badge rounded-pill bg-dark w-2 mt-5 p-4 fs-5">Read More</span>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center">
+            <img src="/media/images/about_1.jpg" class="w-75 rounded-3" alt="">
+        </div>
+    </div>
+</div>
+
+{% endfor %}
+
+{% endblock %}
